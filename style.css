@@ -1,24 +1,75 @@
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .dices {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
+  align-items: top;
+  color: #fff;
+  min-height: 200px;
 }
 
 .dice {
   text-align: center;
   width: 90px;
+  padding: 5px;
+  background-color: #000;
 }
 
 .increase-decrease button {
   background-color: #000;
-  color: #fff;
-  font-weight: bold;
+  color: #ec2127;
   margin: 3px;
   outline: none;
   border: none;
+  font-size: 115%;
   cursor: pointer;
+}
+
+.dice-sum {
+  font-size: 130%;
+  color: #ec2127;
 }
 .counter {
   display: inline;
+  font-size: 110%;
+  color: #e91e63;
+}
+
+.rolls {
+  color: #4e4e4e;
+  font-size: 80%;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+.total-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.rollMe {
+  background-color: #000;
+  color: #fff;
+  margin: 3px;
+  outline: none;
+  border: 1px solid #ec2127;
+  padding: 5px 20px 5px 20px;
+  font-size: 115%;
+  cursor: pointer;
+}
+
+.all-roll-sum {
+  color: #ec2127;
+}
+
+.history {
+  color: #505050;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 75%;
+  margin-top: 30px;
 }
