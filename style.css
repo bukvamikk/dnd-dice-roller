@@ -5,9 +5,11 @@ body {
 .dices {
   display: flex;
   justify-content: center;
-  align-items: top;
+  align-items: flex-start;
+  flex-wrap: wrap;
   color: #fff;
   min-height: 200px;
+  padding-bottom: 20px;
 }
 
 .dice {
@@ -18,8 +20,11 @@ body {
 }
 
 .increase-decrease button {
-  background-color: #000;
-  color: #ec2127;
+  background-color: #ec2127;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #000;
   margin: 3px;
   outline: none;
   border: none;
@@ -68,7 +73,7 @@ body {
   color: #505050;
   display: flex;
   justify-content: center;
-  max-width: 400px;
+  max-width: 360px;
   margin: 0 auto;
   font-size: 75%;
   margin-top: 30px;
@@ -76,6 +81,8 @@ body {
 
 .logo {
   padding-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
 }
 .holder {
   display: flex;
