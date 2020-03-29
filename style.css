@@ -20,11 +20,11 @@ body {
 }
 
 .increase-decrease button {
-  background-color: #ec2127;
+  background-color: #422b2c;
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  color: #000;
+  color: #fff;
   margin: 3px;
   outline: none;
   border: none;
@@ -39,7 +39,7 @@ body {
 .counter {
   display: inline;
   font-size: 110%;
-  color: #e91e63;
+  color: #ffb0b2;
 }
 
 .rolls {
