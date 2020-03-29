@@ -73,3 +73,14 @@ body {
   font-size: 75%;
   margin-top: 30px;
 }
+
+.logo {
+  padding-bottom: 20px;
+}
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}

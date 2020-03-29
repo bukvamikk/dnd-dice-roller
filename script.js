@@ -90,12 +90,12 @@ $(document).ready(function () {
             $('.dice-sum.d20').html(allTheRollsD20.reduce(reducer));
         }
 
-        $('.history').prepend(' | D4: ', allTheRollsD4.join(", "));
+        if (allTheRollsD4.length > 0) $('.history').prepend(' | D4: ', allTheRollsD4.join(", "));
         if (allTheRollsD6.length > 0) $('.history').prepend(' | D6: ', allTheRollsD6.join(", "));
-        if (allTheRollsD8.length > 0) $('.history').prepend(' | D8: ', allTheRollsD6.join(", "));
-        if (allTheRollsD10.length > 0) $('.history').prepend(' | D10: ', allTheRollsD6.join(", "));
-        if (allTheRollsD12.length > 0) $('.history').prepend(' | D12: ', allTheRollsD6.join(", "));
-        if (allTheRollsD20.length > 0) $('.history').prepend(' | D20: ', allTheRollsD6.join(", "));
-        $('.history').prepend('<br> | new throws at: ', date, ' ');
+        if (allTheRollsD8.length > 0) $('.history').prepend(' | D8: ', allTheRollsD8.join(", "));
+        if (allTheRollsD10.length > 0) $('.history').prepend(' | D10: ', allTheRollsD10.join(", "));
+        if (allTheRollsD12.length > 0) $('.history').prepend(' | D12: ', allTheRollsD12.join(", "));
+        if (allTheRollsD20.length > 0) $('.history').prepend(' | D20: ', allTheRollsD20.join(", "));
+        $('.history').prepend('<br> Throwing at: ', date, ' ');
     })
 });
